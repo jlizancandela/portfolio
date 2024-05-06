@@ -1,0 +1,35 @@
+---
+import { work } from "../../assets/resume.json";
+import Section from "../section.astro";
+---
+
+<Section title="Experiencia">
+  {
+    work.map(({ name, position, startDate, endDate, summary }) => (
+      <article>
+        <header>
+          <h3>{name}</h3>
+          <time datetime="{startDate}">
+            {startDate} - {endDate}
+          </time>
+        </header>
+        {position && <h4>{position}</h4>}
+        <p>{summary}</p>
+      </article>
+    ))
+  }
+</Section>
+
+<style>
+  article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+</style>

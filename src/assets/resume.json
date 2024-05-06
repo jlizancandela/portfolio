@@ -1,0 +1,272 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Jorge Lizán Candela",
+    "label": "Administrativo y Programador Full Stack",
+    "birthday": "1984-07-21",
+    "image": "https://ik.imagekit.io/jlc84/portfolio/profile_new.jpg?updatedAt=1714657365103",
+    "email": "jlizancandela@gmail.com",
+    "phone": "683 18 38 51",
+    "summary": "Tengo experiencia en el mantenimiento de sistemas informáticos y el diseño web, lo que me ha permitido desarrollar habilidades de organización, resolución de problemas y adaptación al cambio. Me gustaría aplicar estas habilidades en un entorno dinámico y colaborativo, y seguir aprendiendo y ampliando mis habilidades y conocimientos.",
+    "location": {
+      "countryCode": "ES",
+      "address": "Elche, Alicante"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jlizancandela",
+        "url": "https://www.linkedin.com/in/jlizancandela/"
+      },
+      {
+        "network": "GitHub",
+        "username": "jlizancandela",
+        "url": "https://github.com/jlizancandela"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Freelance",
+      "position": "Desarrollador Web",
+      "startDate": "2023",
+      "endDate": "2024",
+      "highlights": [],
+      "summary": "Como desarrollador web freelance, he creado diversas páginas web utilizando HTML, CSS, React y WordPress, entre otras tecnologías."
+    },
+    {
+      "name": "Despacho de Arquitectura y Reformas",
+      "position": "Auxiliar administrativo",
+      "startDate": "2005",
+      "endDate": "2023",
+      "highlights": [],
+      "summary": "Como asistente contable realizando las siguientes funciones:\nRegistro y procesamiento de facturas de compra, manejo y registro de\ngastos bancarios, asistencia en pagos a proveedores, colaboración en la\nelaboración de presupuestos y generación de facturas de ventas."
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "IES Severo Ochoa",
+      "area": "Explotacion Sistemas informaticos",
+      "studyType": "Ciclo Formativo de Grado Medio",
+      "endDate": "2010",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "IES SEVERO OCHOA",
+      "area": "Auxiliar administrativo y secretariado, general",
+      "studyType": "Ciclo Formativo de Grado Medio",
+      "endDate": "2004",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "FEMPA Formación",
+      "area": "Desarrollo de aplicaciones con tecnología web",
+      "studyType": "FORMACIÓN ADICIONAL",
+      "endDate": "2023",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Administración",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Aptitudes de organización",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Trabajo en equipo",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Aplicaciones web",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Desarrollo web",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Office",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Excel",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Secuencia de comandos",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bases de datos",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Programación orientada a objetos (POO)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Modelo-Vista-Controlador (MVC)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "WordPress",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Base de datos relacional",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Programación",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Apache",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Desarrollo Full Stack",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JSON",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Hojas de estilos en cascada (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bootstrap",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "es",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [{
+    "name": "Tienda de ropa",
+    "description": "Proyecto final para el curso de Desarrollo Web. Tienda de ropa.",
+    "highlights": [
+      "Php", "Javascript", "Mysql","Mvc"
+    ],
+    "url": "https://jlc84.great-site.net/mvc/"
+  },
+  {
+    "name": "Despacho de Podología",
+    "description": "Pagina Web de despacho de Podología.",
+    "highlights": [
+    "Mysql","Php", "WordPress"
+    ],
+    "url": "https://podolosperezguerrero.es/"
+  },
+  {
+    "name": "Pagina Web de Carpinteria",
+    "description": "Pagina Web de Carpinteria.",
+    "highlights": [
+      "HTML", "CSS", "Astro", "React.js"
+    ],
+    "url": "https://carpinteriajucla.netlify.app/"
+  },
+  {
+    "name": "Buscador de Gifs",
+    "description": "Buscador de Gifs. Creado con React.js y Tenor API. Curso de React de Fernando Herrera.",
+    "highlights": [
+      "HTML", "CSS", "React.js"
+  ],
+    "url": "https://gifsappjlc.netlify.app/"
+  }],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}

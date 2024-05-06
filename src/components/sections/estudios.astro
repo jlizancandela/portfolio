@@ -1,0 +1,33 @@
+---
+import { education } from "../../assets/resume.json";
+import Section from "../section.astro";
+---
+
+<Section title="Estudios">
+  {
+    education.map(({ institution, area, studyType, endDate }) => (
+      <article>
+        <header>
+          <h3>{institution}</h3>
+          <time datetime="{endDate}">{endDate}</time>
+        </header>
+        <h4>{studyType}</h4>
+        <p>{area}</p>
+      </article>
+    ))
+  }
+</Section>
+
+<style>
+  article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+</style>

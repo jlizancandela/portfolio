@@ -1,0 +1,59 @@
+---
+import { basics } from "../../assets/resume.json";
+import Section from "../section.astro";
+import World from "../../assets/icons/world.astro";
+import Contact from "../contact.astro";
+
+const { name, label, image, location } = basics;
+---
+
+<Section>
+  <header>
+    <div class="content">
+      <h1>{name}</h1>
+      <h2>{label}</h2>
+      <h3><World size="16" /> {location.address}</h3>
+      <Contact size="18" color="#616161" />
+    </div>
+    <div class="image">
+      <img src={`${image}?tr=h-112,w-112`} alt={name} />
+    </div>
+  </header>
+</Section>
+
+<style>
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  img {
+    height: 112px;
+    width: 112px;
+    border-radius: 20%;
+    object-fit: cover;
+  }
+  .image {
+    margin: 0px 20px 20px 100px;
+  }
+
+  h2 {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+
+  h3 {
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: normal;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+</style>

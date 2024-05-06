@@ -1,0 +1,72 @@
+<section id="cookies" class="visible">
+  <h2>Cookies</h2>
+  <p>
+    Utilizamos cookies para mejorar la experiencia de usuario. Al continuar,
+    aceptas la configuración de cookies.
+  </p>
+  <div>
+    <button id="aceptar">Continuar</button>
+    <button id="rechazar">Rechazar</button>
+  </div>
+</section>
+
+<script>
+  const rechazar = document.querySelector("#rechazar");
+  const aceptar = document.querySelector("#aceptar");
+  const seccion = document.querySelector("#cookies");
+  if (rechazar && aceptar && seccion) {
+    const visible = localStorage.getItem("cookies");
+    if (visible) {
+      seccion.classList.toggle("visible");
+    }
+    aceptar.addEventListener("click", () => {
+      seccion.classList.toggle("visible");
+      localStorage.setItem("cookies", "true");
+    });
+    rechazar.addEventListener("click", () => {
+      seccion.classList.toggle("visible");
+      localStorage.setItem("cookies", "false");
+    });
+  }
+</script>
+
+<style>
+  .visible {
+    display: flex;
+  }
+  section {
+    display: none;
+    flex-direction: column;
+    gap: 2rem;
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    padding: 20px;
+    border: 1px solid var(--quaternary-color);
+    border-radius: 10px;
+    background-color: var(--background-color);
+    color: var(--tertiary-color);
+    width: 400px;
+    z-index: 1;
+    box-shadow: 0 0 10px var(--tertiary-color);
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  button {
+    padding: 10px;
+    border: 1px solid var(--quaternary-color);
+    border-radius: 10px;
+    background-color: var(--background-color);
+    color: var(--tertiary-color);
+  }
+  button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px var(--quaternary-color);
+    background-color: var(--quaternary-color);
+  }
+</style>

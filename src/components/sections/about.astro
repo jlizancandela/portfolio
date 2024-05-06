@@ -1,0 +1,9 @@
+---
+import Section from "../section.astro";
+import { basics } from "../../assets/resume.json";
+const { summary } = basics;
+---
+
+<Section title="Sobre mi">
+  <p>{summary}</p>
+</Section>

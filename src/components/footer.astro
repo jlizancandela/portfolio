@@ -1,0 +1,120 @@
+---
+
+---
+
+<footer>
+  <p>Presione <kbd>⌘ k</kbd> para ver el menu</p>
+  <ninja-keys placeholder="Escriba una accion" hideBreadcrumbs>
+    <div slot="footer"></div>
+  </ninja-keys>
+</footer>
+
+<script>
+  import "ninja-keys";
+  import { updateDarkMode } from "../helper/changemode";
+
+  const label = document.querySelector("#label-toggle-mode");
+
+  const ninja = document.querySelector("ninja-keys");
+  import { basics } from "../assets/resume.json";
+
+  const { profiles } = basics;
+  const github = profiles.find((profile) => profile.network === "GitHub")?.url;
+  const linkedin = profiles.find(
+    (profile) => profile.network === "LinkedIn"
+  )?.url;
+
+  if (ninja != null) {
+    ninja.data = [
+      {
+        id: "Print",
+        title: "Imprimir",
+        hotkey: "ctrl+p",
+        section: "Acciones",
+        handler: () => {
+          window.print();
+        },
+      },
+      {
+        id: "GitHub",
+        title: "GitHub",
+        hotkey: "ctrl+g",
+        section: "Acciones",
+        handler: () => {
+          window.open(github, "_blank");
+        },
+      },
+      {
+        id: "LinkedIn",
+        title: "LinkedIn",
+        hotkey: "ctrl+l",
+        section: "Acciones",
+        handler: () => {
+          window.open(linkedin, "_blank");
+        },
+      },
+      {
+        id: "DarkMode",
+        title: "Modo oscuro / Claro",
+        hotkey: "ctrl+m",
+        section: "Acciones",
+        handler: () => {
+          if (label) {
+            updateDarkMode(label);
+          }
+        },
+      },
+    ];
+  }
+</script>
+
+<style>
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  footer {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: var(--tertiary-color);
+    font-weight: normal;
+    border-top: 1px solid var(--quaternary-color);
+    z-index: 1;
+    background-color: var(--background-color);
+
+    view-timeline-name: --revealing;
+    view-timeline-axis: block;
+
+    animation: linear 0.3s fadein;
+    animation-timeline: --revealing;
+    animation-range: entry 100% cover 10%;
+  }
+
+  kbd {
+    background-color: var(--quaternary-color);
+    color: var(--tertiary-color);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--quaternary-color);
+  }
+  @media print {
+    ninja-keys {
+      display: none;
+    }
+
+    footer {
+      display: none;
+    }
+  }
+</style>

@@ -1,0 +1,82 @@
+---
+import Email from "../assets/icons/email.astro";
+import Github from "../assets/icons/github.astro";
+import Linkeding from "../assets/icons/linkeding.astro";
+import Phone from "../assets/icons/phone.astro";
+import { basics } from "../assets/resume.json";
+
+const { email, phone, profiles } = basics;
+const { color = "#616161" } = Astro.props;
+const { size = "24" } = Astro.props;
+
+const linkedin = profiles.find(
+  (profile) => profile.network === "LinkedIn"
+)?.url;
+const github = profiles.find((profile) => profile.network === "GitHub")?.url;
+---
+
+<div class="screen">
+  <a href={`mailto:${email}`} target="_blank" rel="noreferrer"
+    ><Email size={size} color={color} /></a
+  >
+  <a href={`tel:${phone}`} target="_blank" rel="noreferrer"
+    ><Phone size={size} color={color} /></a
+  >
+  <a href={linkedin} target="_blank" rel="noreferrer"
+    ><Linkeding size={size} color={color} /></a
+  >
+  <a href={github} target="_blank" rel="noreferrer"
+    ><Github size={size} color={color} /></a
+  >
+</div>
+<div class="print">
+  <a href={`mailto:${email}`} target="_blank" rel="noreferrer"
+    >{`Email: ${email}`}</a
+  >
+  <a href={`tel:${phone}`} target="_blank" rel="noreferrer"
+    >{`Telefono: ${phone}`}</a
+  >
+  <a href={linkedin} target="_blank" rel="noreferrer"
+    >{`Linkedin: ${linkedin}`}</a
+  >
+  <a href={github} target="_blank" rel="noreferrer">{`Github: ${github}`}</a>
+</div>
+
+<style>
+  .screen {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    a {
+      padding: 5px;
+      border: 1px solid var(--quaternary-color);
+      border-radius: 10px;
+    }
+    a:hover {
+      background-color: whitesmoke;
+      cursor: pointer;
+    }
+  }
+
+  .print {
+    display: none;
+  }
+
+  @media print {
+    .print {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      a {
+        text-decoration: none;
+        color: var(--tertiary-color);
+        white-space: nowrap;
+        font-size: 0.7rem;
+      }
+    }
+
+    .screen {
+      display: none;
+    }
+  }
+</style>
