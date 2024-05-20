@@ -16,7 +16,7 @@
   const seccion = document.querySelector("#cookies");
   if (rechazar && aceptar && seccion) {
     const visible = localStorage.getItem("cookies");
-    if (visible) {
+    if (!visible) {
       seccion.classList.toggle("visible");
     }
     aceptar.addEventListener("click", () => {
