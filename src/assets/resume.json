@@ -75,7 +75,22 @@
   "publications": [],
   "skills": [
     {
-      "name": "HTML",
+      "name": "Desarrollo web",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML 5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Hojas de estilos en cascada (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
       "level": "",
       "keywords": []
     },
@@ -85,22 +100,22 @@
       "keywords": []
     },
     {
-      "name": "Aptitudes de organización",
+      "name": "SQL",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Trabajo en equipo",
+      "name": "PHP",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Aplicaciones web",
+      "name": "WordPress",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Desarrollo web",
+      "name": "Patron Mvc",
       "level": "",
       "keywords": []
     },
@@ -115,17 +130,7 @@
       "keywords": []
     },
     {
-      "name": "Microsoft Office",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Microsoft Excel",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Secuencia de comandos",
+      "name": "Git",
       "level": "",
       "keywords": []
     },
@@ -135,92 +140,17 @@
       "keywords": []
     },
     {
-      "name": "Bases de datos",
+      "name": "Microsoft Office",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Programación orientada a objetos (POO)",
+      "name": "Aptitudes de organización",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Git",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Modelo-Vista-Controlador (MVC)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "WordPress",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Base de datos relacional",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Programación",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Apache",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "MySQL",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "SQL",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "JavaScript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "PHP",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Desarrollo Full Stack",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "JSON",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Hojas de estilos en cascada (CSS)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Bootstrap",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "XML",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "HTML5",
+      "name": "Trabajo en equipo",
       "level": "",
       "keywords": []
     }
@@ -233,38 +163,32 @@
   ],
   "interests": [],
   "references": [],
-  "projects": [{
-    "name": "Tienda de ropa",
-    "description": "Proyecto final para el curso de Desarrollo Web. Tienda de ropa.",
-    "highlights": [
-      "Php", "Javascript", "Mysql","Mvc"
-    ],
-    "url": "https://jlc84.great-site.net/mvc/"
-  },
-  {
-    "name": "Despacho de Podología",
-    "description": "Pagina Web de despacho de Podología.",
-    "highlights": [
-    "Mysql","Php", "WordPress"
-    ],
-    "url": "https://podolosperezguerrero.es/"
-  },
-  {
-    "name": "Pagina Web de Carpinteria",
-    "description": "Pagina Web de Carpinteria.",
-    "highlights": [
-      "HTML", "CSS", "Astro", "React.js"
-    ],
-    "url": "https://carpinteriajucla.netlify.app/"
-  },
-  {
-    "name": "Buscador de Gifs",
-    "description": "Buscador de Gifs. Creado con React.js y Tenor API. Curso de React de Fernando Herrera.",
-    "highlights": [
-      "HTML", "CSS", "React.js"
+  "projects": [
+    {
+      "name": "Tienda de ropa",
+      "description": "Proyecto final para el curso de Desarrollo Web. Tienda de ropa.",
+      "highlights": ["Php", "Javascript", "Mysql", "Mvc"],
+      "url": "https://jlc84.great-site.net/mvc/"
+    },
+    {
+      "name": "Despacho de Podología",
+      "description": "Pagina Web de despacho de Podología.",
+      "highlights": ["Mysql", "Php", "WordPress"],
+      "url": "https://podolosperezguerrero.es/"
+    },
+    {
+      "name": "Pagina Web de Carpinteria",
+      "description": "Pagina Web de Carpinteria.",
+      "highlights": ["HTML", "CSS", "Astro", "React.js"],
+      "url": "https://carpinteriajucla.netlify.app/"
+    },
+    {
+      "name": "Buscador de Gifs",
+      "description": "Buscador de Gifs. Creado con React.js y Tenor API. Curso de React de Fernando Herrera.",
+      "highlights": ["HTML", "CSS", "React.js"],
+      "url": "https://gifsappjlc.netlify.app/"
+    }
   ],
-    "url": "https://gifsappjlc.netlify.app/"
-  }],
   "meta": {
     "version": "v1.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
