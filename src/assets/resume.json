@@ -94,11 +94,7 @@
       "level": "",
       "keywords": []
     },
-    {
-      "name": "Administración",
-      "level": "",
-      "keywords": []
-    },
+
     {
       "name": "SQL",
       "level": "",
@@ -136,6 +132,11 @@
     },
     {
       "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Administración",
       "level": "",
       "keywords": []
     },
