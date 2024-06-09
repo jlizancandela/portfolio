@@ -4,10 +4,6 @@
 
 Este repositorio contiene mi portfolio personal, diseñado y desarrollado con Astro, HTML, CSS y JavaScript. Está basado en el esquema JSON del CV de [jsonresume.org](https://jsonresume.org), adaptado al diseño de [Bartosz Jarocki](https://github.com/BartoszJarocki/cv) y al tutorial de [midulive](https://www.youtube.com/watch?v=Zwh92LTB-Bk&t=5697s) con su [repositorio asociado](https://github.com/midudev/minimalist-portfolio-json).
 
-## Capturas de Pantalla
-
-Inserta aquí capturas de pantalla de tu portfolio para mostrar cómo se ve.
-
 ## Características
 
 - **Astro**: Utiliza Astro para la generación de sitios web estáticos, lo que proporciona un rendimiento óptimo y una mejor experiencia de desarrollo.
