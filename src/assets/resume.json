@@ -191,8 +191,8 @@
     },
     {
       "name": "Aplicación de Notas Diarias",
-      "description": "Aplicación de Notas Diarias Creada con React.js y Tenor API. Curso de React de Fernando Herrera.",
-      "highlights": ["HTML", "CSS", "React.js"],
+      "description": "Aplicación de Notas Diarias Creada con React.js. Curso de React de Fernando Herrera.",
+      "highlights": ["HTML", "CSS", "React.js", "FIREBASE", "CLOUDINARY"],
       "url": "https://journalapp.netlify.app/"
     }
   ],
