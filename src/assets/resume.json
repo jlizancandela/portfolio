@@ -188,6 +188,12 @@
       "description": "Buscador de Gifs. Creado con React.js y Tenor API. Curso de React de Fernando Herrera.",
       "highlights": ["HTML", "CSS", "React.js"],
       "url": "https://gifsappjlc.netlify.app/"
+    },
+    {
+      "name": "Aplicación de Notas Diarias",
+      "description": "Aplicación de Notas Diarias Creada con React.js y Tenor API. Curso de React de Fernando Herrera.",
+      "highlights": ["HTML", "CSS", "React.js"],
+      "url": "https://journalapp.netlify.app/"
     }
   ],
   "meta": {
