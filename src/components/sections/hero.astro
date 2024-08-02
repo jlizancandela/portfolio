@@ -5,10 +5,9 @@ import World from "../../assets/icons/world.astro";
 import Contact from "../contact.astro";
 import { hash256 } from "../../helper/hash256";
 
-const { name, label, image, location, email } = basics;
+const { name, label, location, email } = basics;
 const hash = await hash256(email);
 const gravatar = `https://www.gravatar.com/avatar/${hash}?s=200&d=mp`;
-console.log(gravatar);
 ---
 
 <Section>
