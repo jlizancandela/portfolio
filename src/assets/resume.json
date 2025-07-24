@@ -27,28 +27,20 @@
   },
   "work": [
     {
-      "name": "Freelance",
-      "position": "Desarrollador Web",
-      "startDate": "2023",
-      "endDate": "2024",
+      "name": "Empresa de carpintería",
+      "position": "Administrativo",
+      "startDate": "2024",
+      "endDate": "Actual",
       "highlights": [],
-      "summary": "Como desarrollador web freelance, he creado diversas páginas web utilizando HTML, CSS, React y WordPress, entre otras tecnologías."
+      "summary": "Gestión de facturas, presupuestos y albaranes. Elaboración de informes administrativos. Realización de tareas administrativas generales."
     },
     {
       "name": "Despacho de Arquitectura y Reformas",
       "position": "Socio y administrativo",
-      "startDate": "2024",
-      "endDate": "Presente",
-      "highlights": [],
-      "summary": "Participación activa en la toma de decisiones del negocio como socio y gestor administrativo. Registro y procesamiento de facturas de compra, control de gastos bancarios y conciliación, gestión de pagos a proveedores, elaboración de presupuestos para clientes y emisión de facturas de ventas."
-    },
-    {
-      "name": "Despacho de Arquitectura y Reformas",
-      "position": "Auxiliar administrativo",
       "startDate": "2005",
       "endDate": "2023",
       "highlights": [],
-      "summary": "Como asistente contable realizando las siguientes funciones:\nRegistro y procesamiento de facturas de compra, manejo y registro de\ngastos bancarios, asistencia en pagos a proveedores, colaboración en la\nelaboración de presupuestos y generación de facturas de ventas."
+      "summary": "Participación activa en la toma de decisiones del negocio como socio y gestor administrativo. Registro y procesamiento de facturas de compra. Control de gastos bancarios y conciliación. Gestión de pagos a proveedores. Elaboración de presupuestos para clientes. Emisión de facturas de ventas."
     }
   ],
   "volunteer": [],
