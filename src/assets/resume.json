@@ -2,15 +2,15 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Jorge Lizán Candela",
-    "label": "Administrativo y Programador Full Stack",
+    "label": "Administrativo | Formación en Desarrollo Web",
     "birthday": "1984-07-21",
     "image": "https://ik.imagekit.io/jlc84/portfolio/profile_new.jpg?updatedAt=1714657365103",
     "email": "jlizancandela@gmail.com",
-    "phone": "683 18 38 51",
+    "phone": "683183851",
     "summary": "Tengo experiencia en el diseño web, lo que me ha permitido desarrollar habilidades de organización, resolución de problemas y adaptación al cambio. Me gustaría aplicar estas habilidades en un entorno dinámico y colaborativo, y seguir aprendiendo y ampliando mis habilidades y conocimientos.",
     "location": {
       "countryCode": "ES",
-      "address": "Elche, Alicante"
+      "address": "España"
     },
     "profiles": [
       {
@@ -36,6 +36,14 @@
     },
     {
       "name": "Despacho de Arquitectura y Reformas",
+      "position": "Socio y administrativo",
+      "startDate": "2024",
+      "endDate": "Presente",
+      "highlights": [],
+      "summary": "Participación activa en la toma de decisiones del negocio como socio y gestor administrativo. Registro y procesamiento de facturas de compra, control de gastos bancarios y conciliación, gestión de pagos a proveedores, elaboración de presupuestos para clientes y emisión de facturas de ventas."
+    },
+    {
+      "name": "Despacho de Arquitectura y Reformas",
       "position": "Auxiliar administrativo",
       "startDate": "2005",
       "endDate": "2023",
@@ -47,6 +55,14 @@
   "education": [
     {
       "institution": "IES Severo Ochoa",
+      "area": "Desarrollo de Aplicaciones Web",
+      "studyType": "Ciclo Formativo de Grado Superior",
+      "endDate": "En curso",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "IES Severo Ochoa",
       "area": "Explotacion Sistemas informaticos",
       "studyType": "Ciclo Formativo de Grado Medio",
       "endDate": "2010",
@@ -54,7 +70,7 @@
       "courses": []
     },
     {
-      "institution": "IES SEVERO OCHOA",
+      "institution": "IES Sixto Marco",
       "area": "Auxiliar administrativo y secretariado, general",
       "studyType": "Ciclo Formativo de Grado Medio",
       "endDate": "2004",
@@ -154,12 +170,21 @@
       "name": "Trabajo en equipo",
       "level": "",
       "keywords": []
+    },
+    {
+      "name": "Carnet de conducir",
+      "level": "",
+      "keywords": []
     }
   ],
   "languages": [
     {
       "language": "es",
       "fluency": "Native Speaker"
+    },
+    {
+      "language": "en",
+      "fluency": "Basic"
     }
   ],
   "interests": [],
